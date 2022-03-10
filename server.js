@@ -21,7 +21,7 @@ app.get('/', function(req, res) {
   res.sendFile(process.cwd() + '/views/index.html');
 });
 
-// Your first API endpoint
+// API endpoints
 app.get('/api/hello', function(req, res) {
   res.json({ greeting: 'hello API' });
 });
